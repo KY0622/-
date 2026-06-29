@@ -1,0 +1,335 @@
+local Translations = {
+    -- ========== 长句 ==========
+    ["Thanks for using the script! Made by Mcdaggitt."] = "感谢使用本脚本作者Mcdaggitt",
+    ["Teleport Items to Favorite Room (Client)"] = "将物品传送至鬼魂最爱房间客户端",
+    ["Silent Aim is for Rock Salt Shotgun only"] = "无声自瞄仅针对岩盐霰弹枪",
+    ["Status: Waiting on evidence"] = "状态等待证据信息",
+    ["Move All Items to Favorite Room"] = "把所有物品移动到最爱房间",
+    ["Teleport to Favorite Room"] = "传送至最爱房间",
+    ["Light Ghost Room Candle"] = "点燃鬼魂房间的蜡烛",
+    ["Set Current Position as Safe Spot"] = "将当前位置设为安全点",
+    ["Auto Teleport during Hunt"] = "狩猎时自动传送",
+    ["Teleport objects in Sky"] = "将物品传送至空中",
+    ["Teleport objects on You"] = "将物品传送到自身位置",
+    ["Force Refresh Evidence"] = "强制刷新证据",
+    ["Live Room Temperatures"] = "房间实时温度",
+    ["Search in this tab"] = "在当前标签页搜索",
+    ["Take all Photos"] = "一键拍摄所有照片",
+    ["Toggle All Doors"] = "切换所有门",
+    ["Toggle All Lights"] = "切换所有灯光",
+    ["Light All Candles"] = "点燃全部蜡烛",
+    ["Force Fuse Box ON"] = "强制开启电闸",
+    ["Item and Room Related"] = "物品与房间相关",
+    ["GhostOrb: Not Detected"] = "鬼魂光球未探测到",
+    ["Evidence Monitoring"] = "证据监测",
+    ["Player Statistics"] = "玩家信息",
+    ["Ghost Information"] = "鬼魂信息",
+    ["Light Summoning Circle"] = "点亮召唤阵",
+    ["Join Devtest Server"] = "进入测试服务器",
+    ["Softlock Umbra Board"] = "黑屏卡死暗影面板",
+    ["Trap Ghost Room"] = "封锁鬼魂房间",
+    ["Salt Ghost Room"] = "盐封锁鬼魂房间",
+    ["Server Lagger"] = "服务器卡顿工具",
+    ["Infinite Stamina"] = "无限体力",
+    ["Enable Speed"] = "开启移速",
+    ["Manual Shoot"] = "手动开火",
+    ["Silent Aim"] = "无声自瞄",
+    ["Auto Revive"] = "自动复活",
+    ["Hunt Escape"] = "狩猎逃生",
+    ["Safe Pos"] = "安全点位",
+    ["Fullbright"] = "全局高亮",
+    ["Flood Delay Seconds"] = "刷屏延迟秒",
+    ["Enter message"] = "输入消息",
+    ["Flood Chat"] = "刷屏聊天",
+    ["Object Orbit"] = "物品环绕",
+    ["Object Related"] = "物品相关",
+    ["Favourite Room ESP"] = "首选房间透视",
+    ["Cursed Object ESP"] = "诅咒物品透视",
+    ["Handprint ESP"] = "手印透视",
+    ["Laser Projector"] = "点阵投影仪",
+    ["Ghost Writing"] = "幽灵书写",
+    ["Video Camera"] = "摄像机",
+    ["Magnifying Glass"] = "放大镜",
+    ["Fortune Predictor"] = "预兆预测",
+    ["Fortune Stealer"] = "抢夺预兆",
+    ["Holy Oil Doorway"] = "圣油门径",
+
+    -- ========== 房间名称 ==========
+    ["Living Room"] = "客厅",
+    ["Blue Bedroom"] = "蓝色卧室",
+    ["Pink Bedroom"] = "粉色卧室",
+    ["Master Bedroom"] = "主卧室",
+    ["Master Bathroom"] = "主卫",
+    ["Laundry Room"] = "洗衣房",
+    ["Favourite Room"] = "最爱房间",
+    ["Current Room"] = "当前房间",
+    ["Garage"] = "车库",
+    ["Kitchen"] = "厨房",
+    ["Bathroom"] = "卫生间",
+    ["Hallway"] = "走廊",
+    ["Stairway"] = "楼梯间",
+    ["Basement"] = "地下室",
+    ["Base Camp"] = "营地",
+    ["Bedroom"] = "卧室",
+    ["Foyer"] = "门厅",
+    ["Office"] = "书房",
+    ["Pantry"] = "储藏室",
+    ["Room"] = "房间",
+
+    -- ========== 物品名称 ==========
+    ["Flower Pot"] = "花盆",
+    ["Spirit Book"] = "灵写书",
+    ["Thermometer"] = "温度计",
+    ["Blacklight"] = "紫光灯",
+    ["EMF Reader"] = "电磁检测仪",
+    ["Flashlight"] = "手电筒",
+    ["Lighter"] = "打火机",
+    ["Plushie"] = "玩偶",
+    ["Fortune Coin"] = "幸运币",
+    ["Spirit Box"] = "通灵盒",
+    ["LaserProjector"] = "点阵投影仪",
+    ["Umbra Board"] = "暗影面板",
+    ["Energy Drink"] = "能量饮料",
+    ["Energy Watch"] = "能量手表",
+    ["Map Fucker"] = "地图破坏者",
+    ["Salt Canister"] = "盐罐",
+    ["Photo Camera"] = "照相机",
+
+    -- ========== 证据相关 ==========
+    ["EMF Level 5"] = "五级电磁信号",
+    ["Not Detected"] = "未检测到",
+    ["DETECTED"] = "已检测到",
+    ["HandPrint"] = "手印",
+    ["Freezing"] = "冰点证据",
+    ["Wither"] = "枯萎证据",
+
+    -- ========== ESP相关 ==========
+    ["Item ESP"] = "物品透视",
+    ["Ghost ESP"] = "鬼魂透视",
+
+    -- ========== 鬼魂信息 ==========
+    ["Ghost"] = "鬼魂",
+    ["Male"] = "男性",
+    ["Female"] = "女性",
+    ["Sanity"] = "理智值",
+    ["set below"] = "在下方设置",
+    ["Name"] = "名称",
+    ["Age"] = "年龄",
+    ["Gender"] = "性别",
+    ["Hunting"] = "猎杀状态",
+    ["Speed"] = "移速",
+
+    -- ========== 功能按钮 ==========
+    ["Configs"] = "配置文件",
+    ["Theme"] = "主题",
+    ["Other"] = "其他",
+    ["Config name"] = "配置名称",
+    ["Create"] = "创建",
+    ["Delete"] = "删除",
+    ["Load"] = "加载",
+    ["Save"] = "保存",
+    ["Refresh"] = "刷新",
+    ["Close"] = "关闭",
+    ["Open"] = "打开",
+    ["Troll  World"] = "恶作剧世界功能",
+    ["Troll&World"] = "恶作剧世界",
+    ["Utilities master"] = "工具总览",
+    ["Noclip"] = "穿墙",
+    ["Walkspeed"] = "行走速度",
+    ["Item Related"] = "物品相关",
+    ["Fortune"] = "预兆",
+
+    -- ========== 通用词汇 ==========
+    ["Evidence"] = "证据",
+    ["Activity"] = "活动",
+    ["Timer"] = "计时器",
+    ["Players"] = "玩家",
+    ["Settings"] = "设置",
+    ["Controls"] = "控制",
+    ["Information"] = "信息",
+    ["Status"] = "状态",
+    ["Loading"] = "加载中",
+    ["Waiting"] = "等待中",
+    ["Ready"] = "就绪",
+    ["Active"] = "激活",
+    ["Inactive"] = "未激活",
+    ["Enabled"] = "已启用",
+    ["Disabled"] = "已禁用",
+    ["Yes"] = "是",
+    ["No"] = "否"
+}
+
+-- 按长度从长到短排序
+local sortedKeys = {}
+for key in pairs(Translations) do
+    table.insert(sortedKeys, key)
+end
+table.sort(sortedKeys, function(a, b)
+    if #a ~= #b then
+        return #a > #b
+    end
+    return a < b
+end)
+
+-- 构建快速查找表
+local lowerMap = {}
+for en, cn in pairs(Translations) do
+    lowerMap[en:lower()] = cn
+end
+
+-- 翻译函数
+local function translateText(text)
+    if type(text) ~= "string" or text == "" then return text end
+    
+    if Translations[text] then 
+        return Translations[text] 
+    end
+    
+    local trimmed = text:gsub("^%s+", ""):gsub("%s+$", "")
+    if Translations[trimmed] then 
+        return Translations[trimmed] 
+    end
+    
+    local lower = text:lower()
+    if lowerMap[lower] then 
+        return lowerMap[lower] 
+    end
+    
+    local result = text
+    for _, en in ipairs(sortedKeys) do
+        if result:find(en, 1, true) then
+            result = result:gsub(en, Translations[en])
+        end
+    end
+    
+    return result
+end
+
+-- 劫持写入
+local function hookMetatable()
+    local mt = getrawmetatable(game)
+    if not mt then return false end
+    local old = mt.__newindex
+    if not old then return false end
+    setreadonly(mt, false)
+    mt.__newindex = newcclosure(function(t, k, v)
+        if k == "Text" and type(v) == "string" then
+            local isTextObject = t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")
+            if isTextObject then
+                local translated = translateText(v)
+                if translated ~= v then
+                    return old(t, k, translated)
+                end
+            end
+        end
+        return old(t, k, v)
+    end)
+    setreadonly(mt, true)
+    return true
+end
+
+-- 扫描并翻译
+local function scanAndTranslate(parent)
+    if not parent then return 0 end
+    local count = 0
+    for _, v in ipairs(parent:GetDescendants()) do
+        local isTextObject = v:IsA("TextLabel") or v:IsA("TextButton") or v:IsA("TextBox")
+        if isTextObject then
+            pcall(function()
+                local original = v.Text
+                if original and original ~= "" then
+                    local translated = translateText(original)
+                    if translated ~= original then
+                        v.Text = translated
+                        count = count + 1
+                    end
+                end
+            end)
+        end
+    end
+    return count
+end
+
+task.wait(2)
+
+hookMetatable()
+
+local coreGui = game:GetService("CoreGui")
+local player = game.Players.LocalPlayer
+local totalCount = scanAndTranslate(coreGui)
+if player then
+    local pg = player:FindFirstChild("PlayerGui")
+    if pg then
+        totalCount = totalCount + scanAndTranslate(pg)
+    end
+end
+print("✅ 翻译引擎已就绪，初始翻译 " .. totalCount .. " 个文本对象")
+
+-- ====== 外部脚本 ======
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jodta/my-scripts/refs/heads/main/Main%20Scripts/Scriptlocker%20Demonology"))()
+
+task.wait(1)
+totalCount = scanAndTranslate(coreGui)
+if player then
+    local pg = player:FindFirstChild("PlayerGui")
+    if pg then
+        totalCount = totalCount + scanAndTranslate(pg)
+    end
+end
+print("✅ 外部脚本加载后，额外翻译 " .. totalCount .. " 个文本")
+
+coreGui.DescendantAdded:Connect(function(ui)
+    task.wait(0.1)
+    if ui:IsA("TextLabel") or ui:IsA("TextButton") or ui:IsA("TextBox") then
+        if ui.Text and ui.Text ~= "" then
+            pcall(function()
+                local translated = translateText(ui.Text)
+                if translated ~= ui.Text then
+                    ui.Text = translated
+                end
+            end)
+        end
+    end
+end)
+
+if player then
+    player.ChildAdded:Connect(function(child)
+        if child.Name == "PlayerGui" then
+            task.wait(0.3)
+            scanAndTranslate(child)
+            child.DescendantAdded:Connect(function(ui)
+                task.wait(0.1)
+                if ui:IsA("TextLabel") or ui:IsA("TextButton") or ui:IsA("TextBox") then
+                    if ui.Text and ui.Text ~= "" then
+                        pcall(function()
+                            local translated = translateText(ui.Text)
+                            if translated ~= ui.Text then
+                                ui.Text = translated
+                            end
+                        end)
+                    end
+                end
+            end)
+        end
+    end)
+end
+
+game:GetService("RunService").Heartbeat:Connect(function()
+    if not scanAndTranslate._lastTime then
+        scanAndTranslate._lastTime = tick()
+    end
+    if tick() - scanAndTranslate._lastTime >= 3 then
+        scanAndTranslate._lastTime = tick()
+        pcall(function()
+            scanAndTranslate(coreGui)
+            if player then
+                local pg = player:FindFirstChild("PlayerGui")
+                if pg then
+                    scanAndTranslate(pg)
+                end
+            end
+        end)
+    end
+end)
+
+print("✅ 翻译监控已启动")
