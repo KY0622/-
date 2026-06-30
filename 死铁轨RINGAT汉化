@@ -1,0 +1,290 @@
+local Translations = {
+    -- ========== 界面导航 ==========
+    ["RINGTA SCRIPTS"] = "RINGTA脚本",
+    ["RINGTA and BUBLIK6241"] = "更多汉化脚本请加群945364384",
+    ["Home"] = "首页",
+    ["Features"] = "功能总览",
+    ["Main"] = "主功能",
+    ["Teleport"] = "传送功能",
+    ["Other Features"] = "其他功能",
+    ["Towns"] = "城镇功能",
+    ["Bring Items"] = "物品拾取",
+    ["ESP"] = "透视高亮",
+    ["Content Creators"] = "内容创作者专区",
+    ["This tab is empty"] = "此页面暂无内容",
+
+    -- ========== 主功能 ==========
+    ["Bring Random Items To You"] = "随机物品吸附至身边",
+    ["Not started."] = "未启动。",
+    ["This brings random items toward your roblox character and they can be like gold bars and stuff like that. Tracks progress and updates below."] = "将地图中的随机道具（如金条等物资）吸附至角色身边，下方实时追踪并更新进度。",
+
+    ["Auto Hit Weapon"] = "武器自动攻击",
+    ["Auto Hits With Weapon"] = "手持武器自动攻击目标",
+
+    ["Gun Aura"] = "枪械清怪光环",
+    ["Auto Shoots Mobs With Guns"] = "自动使用枪械射击周围怪物",
+
+    ["Train Kill Aura"] = "列车击杀光环",
+    ["When riding train you kill a lot of mobs"] = "乘坐列车时自动清除沿途大量怪物",
+
+    ["Bond Tracker"] = "债券数值追踪器",
+    ["Bonds Currently: 0"] = "当前债券：0",
+    ["Bonds Got This Run"] = "本次获取债券",
+    ["Bonds Got This Run: 0"] = "本次获取债券：0",
+
+    -- ========== 高级功能（锁定） ==========
+    ["Premium Bond Farm"] = "自动刷债券（高级版）",
+    ["Join the Ringta Discord and either buy it for 500 robux or make a video on this script or boost the server to get access."] = "加入Ringta的Discord社群，可通过以下三种方式解锁：500 Robux购买、制作脚本相关视频、或为服务器助推。",
+    ["Start Bond Farm"] = "开启自动刷债券",
+    ["Locked"] = "已锁定",
+    ["Auto Farm Bonds."] = "自动刷债券",
+
+    ["Infinite items this will spawn infinite items in the dropdown click to see the dropdown and then you can turn on the button and its op watch the full video in ringta to see it work. You need premium for this to work so either boost the server or become a content creator by making a video and make sure the video is edited and looks good and decent title."] = "在下拉菜单中生成无限道具，开启后效果极强。需要高级权限方可使用，解锁方式：为Discord服务器助推，或制作剪辑精良、标题得体的视频成为内容创作者。",
+
+    -- ========== 传送功能 ==========
+    ["TP To Train Seat"] = "传送至列车座位",
+    ["Tp To Train Seat"] = "传送至列车座位",
+    ["tps to train (BETA)"] = "传送至列车（测试版）",
+    ["TPS to train (BETA)"] = "传送至列车（测试版）",
+
+    ["Tp To Fort"] = "传送至堡垒",
+    ["TP To Fort"] = "传送至堡垒",
+    ["Tp to Fort"] = "传送至堡垒",
+    ["TP to Fort"] = "传送至堡垒",
+    ["Teleport To Fort"] = "传送至堡垒",
+    ["Teleport to Fort"] = "传送至堡垒",
+    ["tp to fort"] = "传送至堡垒",
+
+    ["Teleport Features Info"] = "传送功能说明",
+    ["For theses bottom teleport features you need a horse and the horse needs to be saddled for this to works or else this will not work this is also in beta and remember you can always just use cowboy class and get a horse. the only teleport features that you dont need a horse for is the teleport to train and teleport to fort"] = "除「传送至列车」和「传送至堡垒」外，其余传送功能需要装配马鞍的马匹方可使用。该模块处于测试阶段，可选择牛仔职业获取马匹。",
+
+    ["Select Destination"] = "选择目标地点",
+    ["Start Teleport To Destination"] = "传送至所选目标地点",
+    ["In the dropdown above whatever you selected it will teleport you there YOU NEED A HORSE WITH A SADDLE NEARBY FOR THIS TO WORK."] = "根据下拉菜单所选地点传送，需要附近有佩戴马鞍的马匹。",
+
+    -- ========== 马匹相关 ==========
+    ["None"] = "无",
+    ["Select Horse"] = "选择马匹",
+    ["Select a Horse"] = "选择马匹",
+    ["to Horse"] = "传送至马匹",
+    ["To Horse"] = "传送至马匹",
+    ["Refresh Horses List"] = "刷新马匹列表",
+
+    -- ========== 其他功能 ==========
+    ["Unlock Third Person Camera"] = "解锁第三人称视角",
+    ["You can zoom out with this and see your roblox character (BETA)"] = "拉远镜头查看角色全貌（测试版）",
+
+    ["Fullbright"] = "全域高亮照明",
+
+    ["Turn Fly On"] = "开启飞行模式",
+    ["THIS ONLY WORKS IF YOUR SITTING ON A CHAIR OR TURRET"] = "仅当角色坐在椅子或炮塔上时生效",
+    ["Turn Fly Off"] = "关闭飞行模式",
+
+    ["AutoHeal Threshold"] = "自动回血阈值",
+    ["Auto Heal (Bandage)"] = "自动使用绷带回血",
+    ["Auto Heal (Snake Oil)"] = "自动使用蛇油回血",
+
+    ["No Clip"] = "穿墙模式",
+    ["NoClip"] = "穿墙模式",
+
+    ["Distance"] = "行驶距离",
+    ["Time"] = "时间",
+    ["time"] = "时间",
+
+    -- ========== 自动拾取/辅助 ==========
+    ["Auto Collect Money Bag"] = "自动拾取钱袋",
+    ["Auto Banjo"] = "自动班卓琴",
+    ["Auto-Banjo"] = "自动班卓琴",
+    ["Automatically play and heals teammates."] = "自动演奏并治疗队友。",
+    ["Instant Interaction"] = "瞬间交互",
+
+    -- ========== 僵尸职业相关 ==========
+    ["Auto Eat Corpse"] = "自动吞噬尸体",
+    ["Automatically eats nearby corpses to heal ONLY"] = "自动吞噬附近尸体以恢复生命值",
+    ["(Zombie Class)"] = "（僵尸职业）",
+    ["(Zombie Classi)"] = "（僵尸职业）",
+
+    -- ========== 复活队友 ==========
+    ["Auto Revive Teammates"] = "自动复活队友",
+    ["Automatically tries to revive Dead teammates"] = "自动尝试复活已倒下的队友",
+    ["(works with bandages or doctor class)"] = "（需携带绷带或选择医生职业）",
+    ["(Works with bandages or doctor class.)"] = "（需携带绷带或选择医生职业）",
+    ["（Works with bandages or doctor class.）"] = "（需携带绷带或选择医生职业）",
+
+    -- ========== 列车状态 ==========
+    ["Train Status"] = "列车状态",
+    ["TrainStatus"] = "列车状态",
+
+    -- ========== 银行密码 ==========
+    ["Notify Bank Codes"] = "银行密码弹窗提醒",
+    ["Bank Codes"] = "银行密码",
+    ["No bank codes detected."] = "未检测到银行密码",
+
+    -- ========== 城镇/地点传送 ==========
+    ["Outpost Teleports"] = "前哨站传送",
+    ["Outpost 1"] = "前哨站 1",
+    ["Outpost 2"] = "前哨站 2",
+    ["Outpost 3"] = "前哨站 3",
+    ["Outpost 4"] = "前哨站 4",
+    ["Outpost 5"] = "前哨站 5",
+    ["Outpost 6"] = "前哨站 6",
+    ["Outpost 7"] = "前哨站 7",
+    ["The End 8"] = "终末区域 8",
+
+    ["Castle"] = "城堡",
+    ["Sterling"] = "斯特林镇",
+    ["TeslaLab"] = "特斯拉实验室",
+    ["StillwaterPrison"] = "静水监狱",
+    ["EvilChurch"] = "邪教堂",
+    ["LincolnsTrain"] = "林肯号列车",
+    ["BoxingGym"] = "拳击馆",
+
+    -- ========== 无限物品 ==========
+    ["Infinite Items"] = "无限物品",
+}
+
+-- ========== 翻译引擎（增强版） ==========
+
+local function translateText(text)
+    if not text or type(text) ~= "string" then return text end
+
+    -- 1. 精确匹配
+    if Translations[text] then
+        return Translations[text]
+    end
+
+    -- 2. 去除首尾空格后匹配
+    local trimmed = text:gsub("^%s+", ""):gsub("%s+$", "")
+    if Translations[trimmed] then
+        return Translations[trimmed]
+    end
+
+    -- 3. 不区分大小写匹配
+    for en, cn in pairs(Translations) do
+        if text:lower() == en:lower() then
+            return cn
+        end
+    end
+
+    -- 4. 去除标点符号后匹配（保留字母和数字）
+    local clean = text:gsub("[%p%s]", "")
+    for en, cn in pairs(Translations) do
+        local cleanEn = en:gsub("[%p%s]", "")
+        if clean:lower() == cleanEn:lower() then
+            return cn
+        end
+    end
+
+    -- 5. 部分匹配（从长到短）
+    local sorted = {}
+    for en, _ in pairs(Translations) do
+        table.insert(sorted, en)
+    end
+    table.sort(sorted, function(a, b) return #a > #b end)
+
+    for _, en in ipairs(sorted) do
+        if text:find(en, 1, true) then
+            return text:gsub(en, Translations[en])
+        end
+    end
+
+    return text
+end
+
+-- ========== 设置翻译引擎 ==========
+
+local function setupTranslationEngine()
+    local success, err = pcall(function()
+        local oldIndex = getrawmetatable(game).__newindex
+        setreadonly(getrawmetatable(game), false)
+
+        getrawmetatable(game).__newindex = newcclosure(function(t, k, v)
+            if (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) and k == "Text" then
+                v = translateText(tostring(v))
+            end
+            return oldIndex(t, k, v)
+        end)
+
+        setreadonly(getrawmetatable(game), true)
+    end)
+
+    if not success then
+        warn("元表劫持失败:", err)
+
+        local translated = {}
+        local function scanAndTranslate()
+            for _, gui in ipairs(game:GetService("CoreGui"):GetDescendants()) do
+                if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                    pcall(function()
+                        local text = gui.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                gui.Text = translatedText
+                                translated[gui] = true
+                            end
+                        end
+                    end)
+                end
+            end
+
+            local player = game:GetService("Players").LocalPlayer
+            if player and player:FindFirstChild("PlayerGui") then
+                for _, gui in ipairs(player.PlayerGui:GetDescendants()) do
+                    if (gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox")) and not translated[gui] then
+                        pcall(function()
+                            local text = gui.Text
+                            if text and text ~= "" then
+                                local translatedText = translateText(text)
+                                if translatedText ~= text then
+                                    gui.Text = translatedText
+                                    translated[gui] = true
+                                end
+                            end
+                        end)
+                    end
+                end
+            end
+        end
+
+        local function setupDescendantListener(parent)
+            parent.DescendantAdded:Connect(function(descendant)
+                if descendant:IsA("TextLabel") or descendant:IsA("TextButton") or descendant:IsA("TextBox") then
+                    task.wait(0.1)
+                    pcall(function()
+                        local text = descendant.Text
+                        if text and text ~= "" then
+                            local translatedText = translateText(text)
+                            if translatedText ~= text then
+                                descendant.Text = translatedText
+                            end
+                        end
+                    end)
+                end
+            end)
+        end
+
+        pcall(setupDescendantListener, game:GetService("CoreGui"))
+        local player = game:GetService("Players").LocalPlayer
+        if player and player:FindFirstChild("PlayerGui") then
+            pcall(setupDescendantListener, player.PlayerGui)
+        end
+
+        while true do
+            scanAndTranslate()
+            task.wait(3)
+        end
+    end
+end
+
+task.wait(2)
+
+setupTranslationEngine()
+
+local success, err = pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/erewe23/deadrailsring.github.io/refs/heads/main/ringta.lua"))()
+end)
+
+if not success then
+    warn("加载失败:", err)
+end
